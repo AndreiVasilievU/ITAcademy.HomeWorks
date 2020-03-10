@@ -64,12 +64,12 @@ namespace HM._03_task1
             //Пример с упаковкой Логического типа и распаковой в byte тип
             bool isTrue = true;
             object q1 = isTrue;
-            byte q2 = (byte)q1;
+            Convert.ToByte(q1);
 
             //Пример с упаковкой charтипа и распаковкой в intтип
             char l = 'a';
             object l1 = l;
-            int l2 = (int)l1; 
+            Convert.ToInt32(l1); 
 
 
         }

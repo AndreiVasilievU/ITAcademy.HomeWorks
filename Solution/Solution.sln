@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyOne", "AssemblyOne\AssemblyOne.csproj", "{D50EF26E-2907-4FAC-9AE3-63DE6427A3FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyTwo", "AssemblyTwo\AssemblyTwo.csproj", "{DDFE81A6-19F2-48CB-8BB2-2C094C8306C4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D50EF26E-2907-4FAC-9AE3-63DE6427A3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50EF26E-2907-4FAC-9AE3-63DE6427A3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50EF26E-2907-4FAC-9AE3-63DE6427A3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50EF26E-2907-4FAC-9AE3-63DE6427A3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDFE81A6-19F2-48CB-8BB2-2C094C8306C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFE81A6-19F2-48CB-8BB2-2C094C8306C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFE81A6-19F2-48CB-8BB2-2C094C8306C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFE81A6-19F2-48CB-8BB2-2C094C8306C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

@@ -8,7 +8,6 @@ namespace hm_11_square
 {
     class Program
     {
-        
         static void Main(string[] args)
         {
             Logger.InitLogger();
